@@ -47,9 +47,9 @@ US_cities.insert(0, "Miami")
 print(US_cities)
 
 #step 8
-del US_cities(2)
 US_cities.pop(5)
 US_cities.remove("Oakland")
+US_cities.clear()
 
 print(US_cities)
 
