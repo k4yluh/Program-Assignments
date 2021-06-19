@@ -57,3 +57,40 @@ del shoe_inventory["Foamposite"]
 print(shoe_inventory)
 
 #lab 3- step X
+
+#lab 4
+
+#step 2
+def total_price(x,y):
+    x=food_price[x]
+    y=food_price[y]
+    sum = x+ y
+    return sum
+
+#step 3
+def price_difference(x,y):
+    x=food_price[x]
+    y=food_price[y]
+    diff = x- y
+    print(diff)
+    return diff
+
+#step 4
+def restock(shoe, restock_amt):
+    shoe_inventory[shoe]=(shoe_inventory[shoe]*restock_amt)
+    print(shoe_inventory)
+    return shoe_inventory
+
+#step 5
+def sale(shoe, sells):
+    shoe_inventory[shoe]=(shoe_inventory[shoe]/sells)
+    print(shoe_inventory)
+    return shoe_inventory
+
+#step 6
+def price_of_multiple(item, amt_of_item):
+    price=(food_price[item]*amt_of_item)
+    print(price)
+    return price
+
+price_of_multiple('Cheese', 4)
