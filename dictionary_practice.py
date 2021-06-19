@@ -93,4 +93,5 @@ def price_of_multiple(item, amt_of_item):
     print(price)
     return price
 
-price_of_multiple('Cheese', 4)
+#step 7
+#git commmit
