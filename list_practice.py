@@ -54,8 +54,4 @@ US_cities.clear()
 print(US_cities)
 
 #step 9
-<<<<<<< HEAD
 #git commit
-=======
-#git commit
->>>>>>> 2d582df6e6493474115be4fd5622e5ce202e50f1
