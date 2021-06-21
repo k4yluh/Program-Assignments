@@ -61,9 +61,9 @@ print(shoe_inventory)
 #lab 4
 
 #step 2
-def total_price(x,y):
-    x=food_price[x]
-    y=food_price[y]
+def total_price(x,y,dict):
+    x=dict[x]
+    y=dict[y]
     sum = x+ y
     return sum
 
