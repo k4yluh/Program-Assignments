@@ -47,11 +47,45 @@ US_cities.insert(0, "Miami")
 print(US_cities)
 
 #step 8
-US_cities.pop(5)
-US_cities.remove("Oakland")
-US_cities.clear()
+#US_cities.pop(5)
+#US_cities.remove("Oakland")
+#US_cities.clear()
 
-print(US_cities)
 
 #step 9
 #git commit
+
+#lab 4
+
+#step 9
+def print_cities(list):
+    for x in list:
+        print(x)
+
+#step 10
+#append, extend, insert
+#pop, remove, clear
+def shortest_to_longest(list):
+    x=0
+    length=0
+    while x < (len(list)) and (x+1)<(len(list)):
+        city=list[x]
+        next_city=list[(x+1)]
+        if ((len(city))>(len(next_city))):
+            list.remove(city)
+            list.append(city)  
+        length+=1
+        x+=1
+    
+    if length==len(list):
+        x=0
+        city=list[x]
+        next_city=list[(x+1)]
+        if ((len(city))>(len(next_city))):
+            list.remove(city)
+            list.append(city)
+
+        
+        #elif len(list[x])>len(list[x-1]):         
+    print(list)
+
